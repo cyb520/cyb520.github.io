@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    outline: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+/* 头部信息 */
+#wapper1{
+    width: 100%;
+    height: 40px;
+    background-color:#eee;
+}
+.wapper2{
+    width: 1200px;
+    height: 40px;
+    margin:0 auto;
+    line-height: 40px;
+    font-size: 14px;
+}
+.wapper2  ul{
+    display: flex;
+    flex-direction: row;
+    color:#005d6c;
+}
+.wapper2 ul li{
+    width: 80px;
+    text-align: center;
+}
+.wapper2 ul li a{
+    color:#005d6c;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.right li{
+    cursor:pointer; 
+}
+.list ul{
+    display:none; 
+    position:absolute; 
+}
+.list ul li{
+    float: none;
+    background-color: #005d6c;
+    color: white;
+    border-bottom: 1px solid black;
+}
+.list:hover ul{
+    display: block;
+}
+.list ul li:hover{
+    background-color: rgb(80,188,205);
+}
+/* logo标志 */
+.wapper3{
+    width: 100%;
+    height: 130px;
+    background-color: #f4f4f4;
+}
+.wapper4{
+    width: 1200px;
+    height: 130px;
+    margin: 0 auto;
+}
+.wapper4 .img1{
+    width: 280px;
+    height: 90px;
+    padding: 20px 0 20px 0;
+}
+.wapper4 .img2{
+    width: 450px;
+    height: 130px;
+    float: right;
+}
+/* 导航栏 */
+#box{
+    width: 100%;
+    height: 40px;
+    background: #005d6c url(http://www.jnu.edu.cn/_upload/tpl/00/f5/245/template245/images/home/hw1.png) no-repeat center top;
+}
+.box1{
+    width: 1200px;
+    height: 40px;
+    margin: 0 auto;
+    font-size: 18px;
+    background: url(http://www.jnu.edu.cn/_upload/tpl/00/f5/245/template245/images/home/hw_zxdj.png) left no-repeat;
+}
+.box1  .box2{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    line-height: 40px;
+    float: right;
+}
+.box2 li{
+    width: 110px;
+    text-align: center;
+}
+.box3 li{
+    background-color: #005d6c;
+    color: white;
+    border-bottom: 1px solid black;
+}
+.box2 li ul{
+    display: none;
+    position: absolute;
+}
+.box2 li:hover ul{
+    display: block;
+}
+/* 主板部分 */
+#king{
+    width: 100%;
+    height: 2400px;
+}
+#text{
+    margin: 0 auto;
+    width: 1200px;
+}
+.text2{
+    width: 100%;
+    margin-top: -34px;
+}
+.text3{
+    position: relative;
+    height: 74px;
+    border-bottom: 4px solid #ed733f;
+}
+.text4{
+    width: 250px;
+    height: 74px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background:url(http://www.jnu.edu.cn/_upload/tpl/00/f5/245/template245/images/list/leftbar_title_bg.png) top left no-repeat;
+}
+.text4 p{
+    width: 250px;
+    height: 74px;
+    line-height: 74px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.text5{
+    width: 1180px;
+    height: 40px;
+    padding-top: 34px; 
+}
+.text5 ul{
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+.text5 ul li{
+    height: 40px;
+    line-height: 40px;
+}
+.text3 ul li a{
+    color: #005d6c;
+    font-size: 12px;
+}
+.text6{
+    background: rgba(0,92,107,0.08) url(http://www.jnu.edu.cn/_upload/tpl/00/f5/245/template245/images/list/leftbar_bg_icon.png) left bottom no-repeat;
+    width: 250px;
+    float: left;
+}
+.text6 ul li{
+    width: 250px;
+    height: 74px;
+    line-height: 74px;
+    font-size: 18px;
+    text-align: center;
+    color: #005d6c;
+}
+.text6 ul li:hover{
+    border-left: 6px solid rgba(237,115,63,0.8);
+    background: #ffffff;
+}
+.text7{
+    width: 827.5px;
+    height: 2100px;
+    float: right;
+}
+.text7 .p1{
+    width: 827.5px;
+    text-align: center;
+    height: 37px;
+    line-height: 37px;
+    font-size: 24px;
+    color:#005d6c;
+}
+.text7 img{
+    width: 827.5px;
+    height: 200px;
+}
+.text8{
+    text-indent: 2em;
+    line-height: 27px;
+    font-size: 18px;
+}
+.text8 p{
+    margin: 10px 0;
+}
+/* 底部排版 */
+#footer{
+    width: 100%;
+    background: url(http://www.jnu.edu.cn/_upload/tpl/00/f5/245/template245/images/home/dbg.png) no-repeat center top;
+    height: 300px;
+    border-top: 1px solid #005d6c;
+    margin-top: 10px;
+}
+.footer1{
+    width: 100%;
+    height: 238px;
+    color: white;
+    font-size: 14px;
+}
+.footer2{
+    width: 1200px;
+    height: 238px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+.footer3{
+    width: 263px;
+    height: 204px;
+    display: flex;
+    flex-direction: row;
+    padding: 0 15px;
+}
+.footer3 ul{
+    margin-top: 60px;
+}
+.footer3 ul li{
+    line-height: 36px;
+    height: 36px;
+    width:131.5px;
+}
+.footer4{
+    width: 555px;
+    height: 177px;
+    margin-top: 60px;
+    padding: 0 15px;
+    display: flex;
+    flex-direction:row ;
+}
+.footer5{
+    height: 110px;
+    width: 220px;
+    display: flex;
+    flex-direction:row ;
+}
+.footer5_box{
+    width: 108px;
+    height: 110px;
+}
+.footer5_box img{
+    width: 85px;
+    height: 85px;
+    margin-left: 11.5px;
+    margin-top: 6px;
+}
+.footer5_box p{
+    text-align: center;
+}
+.footer6{
+    width: 293px;
+    height: 177px;
+    padding: 0 15px;
+}
+.footer6 ul li{
+    height: 29px;
+}
+.footer7{
+    width: 292.5px;
+    height: 160px;
+    margin: 60px 15px 0;
+}
+.img100{
+    width: 254px;
+    height: 80px;
+}
+.ul9{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 165px;
+    margin: 15px 0  0 100px ;
+}
+.ul9 li{
+    width: 40px;
+    height: 55px;
+}
+.ul9 img{
+    width: 40px;
+    height: 40px;
+}
