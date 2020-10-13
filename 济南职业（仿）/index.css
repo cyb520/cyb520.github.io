@@ -1,0 +1,412 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* 头部信息 */
+.wapper{
+    width: 100%;
+    height: 32px;
+    background-color: #e0dfdf;
+    line-height: 32px;
+    color: #828282;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+}
+.wapper p{
+    margin-left: 150px;
+}
+.wapper a{
+    text-decoration: none;
+    padding-left: 10px;
+    color:#828282;
+}
+.wapper a span:hover{
+    color: black;
+}
+/* 头部下方块区域 */
+.wapper1{
+    height: 150px;
+    width: 100%;
+}
+.nav1{
+    float: right;
+    
+}
+.nav1 ul{
+    margin-right: 100px;  
+    height: 41px; 
+    width: 340px;
+}
+.nav1 ul li{
+     float: left;
+     list-style-type: none;    
+     padding-top:10px; 
+}
+.nav1 ul li a{
+    text-decoration: none;
+    color: #828282;
+    border-right: 1.5px solid #828282;
+    padding:0 10px 0;    
+    /* font-weight: bold; */
+}
+.nav1 ul li a:hover{
+    color: black;
+}
+.wapper1 img{
+    height: 70px;
+    width: 100%px;
+    position: absolute;
+    left: 100px;
+    top: 80px;
+}
+.wapper2{
+    position: absolute;
+    top: 110px;
+    right: 100px;
+}
+.inp{
+    width: 140px;
+    height: 34px;         
+    float: right;     
+    border: 1px solid #cacaca; 
+    border-radius: 5px;                                               
+}
+.but{
+   width: 60px;
+   height: 36px;
+   background-color: #9a9a9a;
+   color: white;
+   transition: all 0.5s;
+   float: right;
+   border: none;
+   border-radius: 5px;
+   position: relative;
+   right: 20px;
+}
+.but:hover{
+    background-color: #3d77b6;
+}
+/* 导航栏信息块区域 */
+.wapper3{
+    background: #3d77b6;
+    position: relative;
+}
+.wapper3 ul{
+    list-style: none;;
+    height: 50px;
+    width: 1200px;
+    margin: 0 auto;
+    /* transition: all 150ms ease-in-out; */ 
+}
+.wapper3 ul li{
+    float: left;
+    height: 50px;
+    width: 90px;
+    line-height: 50px; 
+    text-align: center;
+}
+.wapper3 ul li a{
+    text-decoration: none;
+    color: white;
+}
+.wapper3 > ul > li > ul {
+    position: absolute;
+    display: none;
+    left: 0;
+}
+
+.wapper3 > ul > li:hover{
+    background: #3870ab;
+    font-size: 17px;
+}
+.wapper3 > ul >li:hover >ul{
+    display: block;
+    background:rgba(61,119,182, 0.5);
+    height: 300px;
+    width: 100%;
+    /* opacity:0.5; */
+}
+.wapper3 > ul > li > ul > li > img{
+    /* float: left; */
+    height: 180px;
+    width: 310px;
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+.wapper3 > ul  > li > ul > li >a{
+    /* float: right; */
+    position: relative;
+    left: 400px;
+    top: 60px;
+}
+.wapper3 ul li ul li a:hover{
+    margin-left: 20px;
+    /* text-decoration: underline; */
+    border-bottom: 2px solid white;
+    transition: all 0.5s ease 0.1s;
+}
+.box{
+    width: 100%;
+}
+.wapper4 .img_center{
+    height: 465px;
+    width: 100%;
+}
+.img_left{
+    position: absolute;
+    top: 450px;
+    left: 50px;
+}
+.img_right{
+    position: absolute;
+    top: 450px;
+    right: 50px;
+}
+.box_bottom{
+    width: 100%;
+    height: 22px;
+    background-color: transparent;
+    position: absolute;
+    top: 635px;
+}
+.box_bottom ul{
+    width: 156px;
+    height: 26px;
+    margin: 0 auto;
+    cursor:pointer
+ }
+.box_bottom ul li{
+    float: left;
+    list-style-type: none;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: white;
+    line-height: 22px;
+    margin: 6px;
+}
+.box_bottom ul li:hover{
+    background-color: #3d77b6;
+}
+/* 中间块区域 */
+.wapper5{
+    height: 462px;
+    width: 1201px;
+    margin: 0 auto;
+}
+.wapper6{
+    height: 47px;
+    width:1201px; 
+    margin: 30px 0 30px;
+    border-bottom: 3px solid #828282;
+    line-height: 47px;
+}
+.wapper5 .wapper6 h2{
+    float: left;
+    border-bottom: 3px solid #3d77b6;
+}
+.wapper5 .wapper6 a{
+    float: right;
+    text-decoration: none;
+    color: #3d77b6;
+}
+.wapper5 .wapper6 a:hover{
+    color: black;
+}
+/* 中间上部分块区域 */
+.wapper10{
+    height:303px;
+    width: 1200px;
+}
+.wapper7{
+    height: 297px;
+    width: 557px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #e4e4e4;
+    padding: 2px;
+    float: left;
+    position: relative;
+}
+.wapper5 .wapper7 .img1{
+    height: 275px;
+    width: 420px;
+    margin: 11px;
+}
+.cover{
+    width: 420px;
+    height: 275px;
+    background-color: white;
+    opacity: 0;
+    position: absolute;
+    left: 13px;
+    top: 12px;
+}.cover > p{
+    width: 420px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+    position: relative;
+    top: 235px;
+}
+.wapper7 a:hover .cover{
+   opacity: 0.5;
+}
+.wapper5 .wapper7 .img2{
+    height: 60px;
+    width: 98px;
+    margin: 5px;
+}
+.wapper8{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.wapper9{
+    float: right;
+    height: 303px;
+    width: 580px;
+}
+.wapper9 ul li{
+    height: 40px;
+    width: 580px;
+    /* padding-left: 5px; */
+}
+.wapper9 ul li a{
+    text-decoration: none;
+    color: black;
+}
+.wapper9 ul li a:hover{
+    color: cornflowerblue;
+    margin-left:10px;
+    transition: all 0.4s 0.05s;
+}
+.wapper9 ul li span{
+    float: right;
+}
+/* 中间中部分块区域 */
+.wapper11{
+    height: 163px;
+    width: 1202px;
+    margin-top: 40px;
+}
+.img3{
+    border: 1px solid #e4e4e4;
+    padding: 10px;
+}
+/* 中间下部分块区域 */
+.wapper14{
+    width: 1201px;
+    height: 398px;
+}
+.wapper12{
+    height: 398px;
+    width: 643px;
+    margin-top: 30px;
+    float: left;
+}
+.wapper13{
+    height: 47px;
+    width: 643px;
+    line-height: 47px;
+}
+.wapper13 a{
+    color: #3d77b6;
+    float: right;
+    text-decoration: none;
+}
+.wapper13 h2{
+    float: left;
+    border-bottom: 3px solid #3d77b6;
+}
+.wapper13 a:hover{
+    color: black;
+}
+.wapper15{
+    height: 337px;
+    width: 643px;
+    margin-top: 20px;
+}
+.wapper15 ul li{
+    width: 623px;
+    height: 39px;
+    margin:0 20px 0;
+    /* padding-left: 5px; */
+    transition: all 0.4s 0.05s;
+}
+.point{
+    display: inline-block;
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.wapper15 ul li span{
+    float: right;
+}
+.wapper15  ul li a{
+    text-decoration: none;
+    color: black;
+}
+.wapper15  ul li a:hover{
+    color: cornflowerblue;
+    margin-left:10px;
+    transition: all 0.4s;
+}
+.wapper16{
+    height: 398px;
+    width: 474px;
+    float: right;
+}
+.wapper17{
+    height: 47px;
+    width: 474px;
+    margin: 30px 0 25px;
+    line-height: 47px;
+}
+.wapper17 h2{
+    border-bottom: 3px solid #3d77b6;
+    float: left;
+}
+.wapper18{
+    width: 474px;
+    height: 29px;
+}
+.img4{
+    height: 68px;
+    width: 228px;
+    margin-right:4px;
+}
+#pull-up > ul{
+    display: none;
+    position: absolute;
+    list-style-type: none;
+    width:228px;
+    height: 80px;
+}
+#pull-up > ul > li{
+    background-color: #63B8FF;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    position: relative;
+    top: -150px;
+}
+#pull-up:hover > ul{
+    display: block;
+}
+#pull-up > ul > li:hover{
+    background-color: #3d77b6;
+}
+.time-out{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 636px;
+    left: 510px;
+}
