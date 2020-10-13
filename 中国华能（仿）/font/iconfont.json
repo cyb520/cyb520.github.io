@@ -1,0 +1,51 @@
+{
+  "id": "1902386",
+  "name": "icon",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1166078",
+      "name": "地球",
+      "font_class": "diqiu1",
+      "unicode": "e784",
+      "unicode_decimal": 59268
+    },
+    {
+      "icon_id": "8288974",
+      "name": "地球",
+      "font_class": "diqiu",
+      "unicode": "e864",
+      "unicode_decimal": 59492
+    },
+    {
+      "icon_id": "4866685",
+      "name": "用户名",
+      "font_class": "yonghuming",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "7791969",
+      "name": "用户名",
+      "font_class": "ziyuanxhdpi",
+      "unicode": "e648",
+      "unicode_decimal": 58952
+    },
+    {
+      "icon_id": "15361450",
+      "name": "avatar08",
+      "font_class": "08",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "15370196",
+      "name": "avatar03",
+      "font_class": "03",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    }
+  ]
+}

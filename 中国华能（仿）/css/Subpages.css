@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:black;
+    cursor: pointer; 
+}
+/* 头部信息 */
+#wapper{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.box{
+    height: 92px;
+    position: relative;
+}
+.content img{
+    float: left;
+    width: 290px;
+    height: 92px;
+}
+.box ul{
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    line-height: 35px;
+    float: right;
+    font-size: 14px;
+}
+.box ul li{
+    padding: 0 5px;
+}
+.king{
+    position: absolute;
+    top: 40px;
+    left: 500px;
+}
+.inp{
+    width: 150px;
+    height: 30px;         
+    float: right;     
+    border: 1px solid #cacaca; 
+    border-radius: 5px;                                               
+}
+.but{
+   width: 70px;
+   height: 32px;
+   background-color: #014DA1;
+   color: white;
+   transition: .3s;
+   float: right;
+   border: none;
+   border-radius: 5px;
+   position: relative;
+   right: 10px;
+}
+.but:hover{
+    background-color: #0079ce;
+}
+/* 导航栏部分 */
+.content1{
+    display: flex;
+    flex-direction: row;
+    height: 45px;
+    line-height: 45px;
+    cursor: pointer;
+}
+.content1 li{
+    width: 90px;
+    text-align: center;
+}
+.content1  li:hover  a{
+    color: #0079ce;
+    font-size: 18px;
+    font-weight: bold;
+}
+.content1 > .list > ul{
+    position: absolute;
+    display: none;
+    /* opacity: 0.5; */
+}
+.content2 li:last-child{
+    border: none;
+}
+.content1 > .list:hover > ul{
+    display: block;
+    display: flex;
+    flex-direction: row;
+}
+.list ul li{
+    border-right: 1px solid #9a9a9a;
+    position: relative;
+    z-index: 999;
+    background-color: rgba(255,255,255,0.4);;
+}
+.list ul li:hover{
+    background-color: rgba(255,255,255,0.8);
+    font-size: 16px;
+}
+.wapper2{
+    position:relative;
+}
+.wapper2 .img_center{
+    width: 100%;
+    height: 263px;
+}
+/* 中间部分 */
+#wapper-one{
+    width: 1200px;
+    height: 1200px;
+    margin-top: 30px;
+    font-size: 14px;
+}
+.wapper-two{
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+}
+.wapper-two li{
+    padding-left: 10px;
+}
+.wapper-two li a{
+    color: #0079ce;
+}
+.wapper-three{
+    width: 1200px;
+    height: 1px;
+    background-color: rgb(218, 218, 218);
+    margin-top: 10px;
+}
+.wapper-four{
+    width: 1200px;
+    height: 1200px;
+}
+.wapper-five{
+    width: 777px;
+    height: 100%;
+    float: left;
+}
+.wapper-five h2{
+    width: 777px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-bottom: 1px solid #97CD9B;
+    color: #004ba3;
+    margin: 15px 0 5px;
+}
+.wapper-six{
+    height: 38px;
+    line-height: 38px;
+    width: 777px;
+}
+.wapper-six .p-left{
+    float: left;
+}
+.wapper-six .p-right{
+    float: right;
+}
+.wapper-seven{
+    width: 777px;
+    margin-top: 20px;
+}
+.wapper-seven p{
+    text-indent: 3em;
+    line-height: 35px;
+}
+.img-seven{
+    width: 777px;
+    height: 434px;
+    text-align: center;
+}
+.img-seven img{
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.bottom-right{
+    height:40px;
+    margin-top: 40px;
+}
+.bottom-right span{
+    float: right;
+}
+.wapper-night{
+    width: 345px;
+    margin-top: 15px;
+    float: right;
+}
+.wapper-nine {
+    line-height: 48px;
+    height: 48px;
+    border-bottom: 3px solid rgb(151, 205, 155);
+}
+
+.wapper-nine a {
+    font-size: 22px;
+    display: inline-block;
+    border-bottom: 4px solid rgb(47, 155, 54);
+    color: #1b54aa;
+}
+
+.wapper-nine-one {
+    margin: 10px 0;
+    height: 160px;
+}
+
+.wapper-nine-one li {
+    height: 32px;
+    line-height: 32px;
+}
+
+.wapper-nine-one li a:hover{
+    margin-left:10px;
+    transition: all 0.5s ease 0.05s;
+    color: #1b54aa;
+}
+.wapper-ten{
+    width: 354px;
+    background-color: #f0f0f0;
+    height: 220px;
+}
+.wapper-ten .wapper-qe{
+    width: 324px;
+    margin: 0 auto;
+}
+.wapper-ce{
+    line-height: 38px;
+    height: 38px;
+}
+.wapper-te{
+    height: 1px;
+    width: 324px;
+    background-color: #dbdbdb;
+    margin: 5px 0;
+}
+.wapper-ce a{
+    font-size: 22px;
+    display: inline-block;
+    color: #1b54aa;
+}
+.wapper-se{
+    height: 160px;
+}
+.wapper-se li {
+    height: 32px;
+    line-height: 32px;
+}
+.wapper-se li a:hover{
+    color: #1b54aa;
+}
+/* 底部排版 */
+#bottom {
+    width: 1200px;
+    height: 100px;
+    background-color: #979797;
+    padding-top: 30px;
+    position: relative;
+	bottom: 0;
+}
+
+#bottom p {
+    width: 500px;
+    color: white;
+    font-size: 14px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 25px;
+    height: 25px;
+}
