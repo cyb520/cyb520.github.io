@@ -6,7 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-  
+         #box {
+            margin: 50px auto;
+            text-align: center;
+            width: 140px;
+            font-weight: bold;
+        }
+
+        #timeClock {
+            font-size: 30px;
+            height: 80px;
+            line-height: 80px;
+            color: #f40;
+            background-color: #000;
+        }
         .sp {
             background:  url(https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/searchbox/nicon-10750f3f7d.png) no-repeat;
             width: 24px;
@@ -69,6 +82,10 @@
 </head>
 
 <body style="height: 100%;">
+     <div id="box">
+        <h3>北京时间</h3>
+        <div id="timeClock"></div>
+    </div>
     <div id="wapper" style="margin: 200px auto;width: 700px;">
         <div style="position: relative;">
             <span class="sp"></span>
@@ -82,5 +99,24 @@
         </ul>
     </div>
 </body>
+<script>
+    function timea() {
+        var dat = new Date();
+        var h = dat.getHours();
+        var m = dat.getMinutes();
+        var s = dat.getSeconds();
+        var dataa = h + ":" + checktime(m) + ":" + checktime(s);
+        document.getElementById("timeClock").innerHTML = dataa;
+        setInterval(timea, 1000);
+    }
 
+    function checktime(num) {
+        if (num < 10) {
+            return "0" + num;
+        } else {
+            return "" + num;
+        }
+    }
+    timea();
+</script>
 </html>
